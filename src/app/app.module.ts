@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { QweComponent } from './qwe/qwe.component';
+import { AsdComponent } from './asd/asd.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QweComponent
+    QweComponent,
+    AsdComponent
   ],
   imports: [
     BrowserModule
